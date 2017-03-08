@@ -23,7 +23,6 @@
     
     // 设置控件的高度
     self.mj_h = 50;
-    self.triggerAutomaticallyRefreshPercent = 5;
     UILabel *label = [[UILabel alloc] init];
     label.textColor = UIColorFromRGB(0x999999);
     label.font = [UIFont systemFontOfSize:15];
