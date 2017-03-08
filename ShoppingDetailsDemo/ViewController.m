@@ -41,7 +41,7 @@
     [_webView2 loadRequest:request1];
 
     MJDIYAutoFooter *footer = [MJDIYAutoFooter footerWithRefreshingBlock:^{
-        [UIView animateWithDuration:0.25 animations:^{
+        [UIView animateWithDuration:0.20 animations:^{
             _scrollView.contentOffset = CGPointMake(0, ScreenHeight-64);
         }];
         [_tableView.mj_footer endRefreshing];
