@@ -21,6 +21,9 @@
 {
     [super prepare];
     
+    
+    
+    
     // 设置控件的高度
     self.mj_h = 50;
     UILabel *label = [[UILabel alloc] init];
